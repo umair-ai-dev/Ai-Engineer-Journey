@@ -5,13 +5,25 @@ print("hello world!")
 name= input("enter your name:")
 print(f"Hello my name is {name},this is my Ai journey.")
 
-#data types
+#Data types
 a=10
 b=2.0
-print(float(a))
-print(int(b))
+c= "umair"
+d= True
+print(type(a))
+print(type(b))
+print(type(c))
+print(type(d))
 
-#Normal Calculator
+
+
+#program for adding two numbers
+a= int(input("enter first number:"))
+b= int(input("enter second number:"))
+print("sum =", a+b)
+
+
+#program for Normal Calculation
 a= int(input("Enter First Number:"))
 b= int(input("Enter Second Number:"))
 sum = a+b
@@ -26,7 +38,7 @@ print(divide)  #for division
 print(rem)     #for reminder
 
 
-#age checker
+#program for age checker
 x=int(input("enter your age:"))
 if(x>=18):
     print("adult")
@@ -34,11 +46,28 @@ else:
     print("not adult")
 
 
-#license or vote 
+#program for license or vote 
 x= int(input("enter age:"))
 if(x>=18):
     print("can drive and can vote:")
 else:
     print("can't derive and can't vote")
+
+
+#program for print area
+side= float(input("enter square side:"))  #taking input of a square side 
+print("area=", side*side)
+
+
+#program for finding average
+a= float(input("enter first number:"))
+b= float(input("enter second number:"))
+print("avg =", (a+b)/2)
+
+
+##program for find True or False
+a= int(input("enter first num:"))
+b= int(input("enter second num:"))
+print(a>=b)
 
 
