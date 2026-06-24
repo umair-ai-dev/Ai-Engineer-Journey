@@ -1,6 +1,8 @@
+#SETS PROGRAM
+
 #Program-01
-# Ques : "Python", "Java", "C++", "Python", "Javascript", "Java", "Python", "Java", "C++", "C"
-#  this is given list of subject for students. assume one classroom is required for one subject. How many classroom are needed by all students.
+""" Ques : "Python", "Java", "C++", "Python", "Javascript", "Java", "Python", "Java", "C++", "C"
+this is given list of subject for students. assume one classroom is required for one subject. How many classroom are needed by all students."""
 
 subjects = {
     "Python", "Java", "C++", "Python", "Javascript", "Java", "Python", "Java", "C++", "C"
