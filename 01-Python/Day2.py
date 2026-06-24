@@ -1,17 +1,23 @@
 #STRINGS PROGRAMS 
 
-#program for printing length of a text 
+#Program-01
+
+# program for printing length of a text 
 name = input("enter your name:")
 print("length of name =",len(name))
 
-#program find occurrence in string
+#Program-02
+
+# program find occurrence in string
 str = "Hi there , $iam going buy a car in $ for just $99.9" 
 print(str.count("$"))  #output will be 3
 
 
 #CONDITIONS PROGRAMS 
 
-#Assigning grades using conditional loop
+#Program-03
+
+# Assigning grades using conditional loop
 marks= int(input("enter marks:")) #taking wanted marks from user
 if(marks>=(33)):
     print("passed")
@@ -19,7 +25,9 @@ else:
     print("failed")
 
 
-#program for check even or odd
+#Program-04
+
+# program for check even or odd
 num= int(input("enter number:"))
 rem= num%2
 if(rem==0):
@@ -28,7 +36,9 @@ else:
     print("odd")
 
 
-#program for assigning grades
+#Program-05
+
+# program for assigning grades
 marks= int(input("enter numbers:"))
 if(marks>=90):
     grade="A"
@@ -41,7 +51,8 @@ else:
 print(f"grade of student={grade}")
 
 
-#program to find greater of three
+#Program-06
+# program to find greater of three
 a= int(input("enter first number:"))
 b= int(input("enter second number:"))
 c= int(input("enter third number:"))
@@ -54,7 +65,8 @@ else:
     print(f"largest is c = {c}")
 
 
-#program for check number is a multiple of seven 
+#Program-07
+# program for check number is a multiple of seven 
 x= int(input("enter number:"))
 
 if(x%7==0):
