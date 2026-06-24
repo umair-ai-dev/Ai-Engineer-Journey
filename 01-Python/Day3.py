@@ -1,6 +1,8 @@
 # #LISTS PROGRAMS
 
-#Program for store movies name in list
+#Program-01
+
+# Program for store movies name in list
 movie=[]
 
 mov1= input("enter first movie:")
@@ -13,7 +15,9 @@ movie.append(mov3)       #  |
 print(movie)
 
 
-#same Program from 2nd method
+#Program-02
+
+# same Program from 2nd method
 movie=[]
 
 mov=input("enter first movie:")
@@ -26,7 +30,9 @@ movie.append(mov)
 print(movie)
 
 
-#same Program from 3rd method
+#Program-03
+
+# same Program from 3rd method
 movie=[]
 
 movie.append(input("enter first movie:"))
@@ -36,7 +42,9 @@ movie.append(input("enter third movie:"))
 print(movie)
 
 
-#Program to check if a list contain Palindrome element
+#Program-04
+
+# Program to check if a list contain Palindrome element
 list=list(input("enter elements separated by space:"))
 
 copy_list=list.copy() #  Making copy of list
@@ -50,13 +58,17 @@ else:
 
 #TUPLES PROGRAMS
 
-#Program for count the number of student with "A" grade 
+#Program-05
+
+# Program for count the number of student with "A" grade 
 grade=tuple(input("enter grade separated by space:").split())
 ch= input("enter grades to count:")
 print(input(grade.count(ch)))
 
 
-#Program for printing input into ascending order 
+#Program-06
+
+# Program for printing input into ascending order 
 grades=tuple(input("enter grade:").split())
 sorted_grades = tuple(sorted(grades))
 print(sorted_grades)
